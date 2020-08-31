@@ -32,6 +32,41 @@ export default function Menu() {
       description ="Следует отметить, что убеждённость некоторых оппонентов представляет собой интересный эксперимент проверки форм воздействия."
     />
 
+    <Cocktail
+      title="Креольский"
+      image="https://hi-chef.ru/cropping/thumbnails/26/8827/1000x1000/"
+      description ="Родом из Нового Орлеана, как и наша концепция — крепкая, интересная и таинственная."
+    />
+
+    <Cocktail
+      title="Кузнечик"
+      image="https://recipes.av.ru//media/recipes/100570_picture_vc1O3Ut.jpg"
+      description ="Веселый и забавный, сладкий и мягкий. Для тех кто боится зомби и вампиров."
+    />
+
+    <Cocktail
+      title="Маргарита"
+      image="https://cs11.pikabu.ru/post_img/big/2018/10/28/11/1540754147147216153.jpg"
+      description ="Известная леди в узких и не очень кругах. Вроде бы ничего особенного, но как знаменита и утончена.."
+    />
+
+    <Cocktail
+      title="Похоронный"
+      image="https://disgustingmen.com/wp-content/uploads/2020/05/7-963x1024.jpg"
+      description ="Если вы понимаете толк в Сухом Мартини, то этот могильщик точно для вас."
+    />
+
+    <Cocktail
+      title="Дайкири"
+      image="https://cs10.pikabu.ru/post_img/big/2018/10/27/7/1540640966151182528.jpg"
+      description ="Хемингуэй, с его spiritual experience, плохого не посоветует."
+    />
+
+    <Cocktail
+      title="Печенька"
+      image="https://i1.wp.com/cdn.maximonline.ru/03/04/b1/0304b15414fecb9a1fd4bd3c535d2a9c/659x989_1_4fadbc99b24d87542b1dac25e6820d0f@659x989_0xac120005_12255947351529039421.jpg"
+      description ="Этот ЭггНог очаровывает своей текстурой и сложным вкусом, десерт которых мало"
+    />
 
 
     </Layout>

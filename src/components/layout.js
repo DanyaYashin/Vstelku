@@ -11,7 +11,9 @@ export default function Layout(props) {
     <ul>
     <li><Header headerText={props.header} /></li>
     <li><Link to = '/'><p>Home</p></Link></li>
-    <li><Link to = '/menu/'><p>Menu</p></Link></li>
+    <li><Link to = '/menu/'><p>Бар</p></Link></li>
+    <li><Link to = '/'><p>Кухня</p></Link></li>
+    <li><Link to = '/'><p>Контакты</p></Link></li>
     </ul>
     </div>
     <div className={layoutStyles.children}>
