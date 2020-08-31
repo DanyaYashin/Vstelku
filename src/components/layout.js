@@ -8,9 +8,11 @@ export default function Layout(props) {
   return (
     <div>
     <div className={layoutStyles.topmenu}>
-    <Header headerText={props.header} />
-    <Link to = '/'><p>Home</p></Link>
-    <Link to = '/menu/'><p>Menu</p></Link>
+    <ul>
+    <li><Header headerText={props.header} /></li>
+    <li><Link to = '/'><p>Home</p></Link></li>
+    <li><Link to = '/menu/'><p>Menu</p></Link></li>
+    </ul>
     </div>
     <div className={layoutStyles.children}>
       {props.children}

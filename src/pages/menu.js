@@ -23,13 +23,13 @@ export default function Menu() {
     <Cocktail
       title="Пиво"
       image="https://images.unsplash.com/photo-1523567830207-96731740fa71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-      description ="Просто лучший напиток"
+      description ="Просто лучший напиток."
     />
 
     <Cocktail
       title="Отвертка"
-      image="https://images.unsplash.com/photo-1524224313114-ebd9c49dde82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-      description ="..."
+      image="https://images.unsplash.com/photo-1581244249824-b8a5ca5285cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      description ="Следует отметить, что убеждённость некоторых оппонентов представляет собой интересный эксперимент проверки форм воздействия."
     />
 
 

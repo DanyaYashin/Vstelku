@@ -1,6 +1,44 @@
 .topmenu{
-
+  position: fixed;
+  width: 110%;
+  background: rgba(18, 14, 33, 0.3);
+  color: white;
+  margin: -10px;
 }
+
 .children{
-  
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+body {
+  background-color: #5A0DAC;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png);
+  background-repeat:no-repeat;
+  background-position: 100% 0%;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  padding-left: 70px;
+  padding-top: 15px;
+  color: black;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 30px;
+  width: 100px;
 }
