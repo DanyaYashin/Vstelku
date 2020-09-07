@@ -7,6 +7,14 @@
   margin: -10px;
 }
 
+.topmenu ul{
+  list-style: none;
+}
+
+.topmenu li{
+  float: left;
+}
+
 .children{
   padding-top: 150px;
   width: 80%;

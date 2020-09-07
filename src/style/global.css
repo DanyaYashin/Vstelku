@@ -7,13 +7,7 @@ body {
   background-size: 100%;
 }
 
-ul {
-  list-style: none;
-}
 
-li {
-  float: left;
-}
 a {
   text-decoration: none;
   display: block;

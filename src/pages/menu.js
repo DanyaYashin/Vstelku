@@ -34,7 +34,7 @@ export default function Menu() {
 
     <Cocktail
       title="Креольский"
-      image="https://hi-chef.ru/cropping/thumbnails/26/8827/1000x1000/"
+      image="https://recipeis.ru/napitki/kokteili-s-romom/kokteil-daikiri/kokteil-daikiri-ready0-w398h498.jpg"
       description ="Родом из Нового Орлеана, как и наша концепция — крепкая, интересная и таинственная."
     />
 
