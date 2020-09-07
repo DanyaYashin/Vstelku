@@ -21,7 +21,7 @@
 }
 
 .menu_img_css:hover{
-  opacity: 0.05;
+  opacity: 0.001;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);

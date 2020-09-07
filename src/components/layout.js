@@ -9,8 +9,7 @@ export default function Layout(props) {
     <div>
     <div className={layoutStyles.topmenu}>
     <ul>
-    <li><Header headerText={props.header} /></li>
-    <li><Link to = '/'><p>Home</p></Link></li>
+    <li><Header headerText="Vstelku" /></li>
     <li><Link to = '/menu/'><p>Бар</p></Link></li>
     <li><Link to = '/kitchen/'><p>Кухня</p></Link></li>
     <li><Link to = '/'><p>Контакты</p></Link></li>

@@ -18,7 +18,7 @@ const Cocktail = props => (
 
 export default function Menu() {
   return (
-    <Layout header="Menu">
+    <Layout>
 
     <Cocktail
       title="Пиво"

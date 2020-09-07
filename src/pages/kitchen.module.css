@@ -31,7 +31,7 @@
 }
 
 .kitchen_list_css li::before {
-  content: counters(index, ".", decimal-leading-zero);
+
   font-size: 1.5rem;
   text-align: right;
   min-width: 50px;
