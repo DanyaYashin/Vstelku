@@ -6,7 +6,7 @@ import styles from "./kitchen.module.css"
 
 const Dishes = props => (
 <div className = {styles.salads}>
-  <li>{props.text}</li>
+  <div className={styles.text_kitchen}>{props.text}</div>
   <img src = {props.image} className = {styles.kitchen_img_css}/>
 </div>
 )
@@ -27,31 +27,31 @@ export default function Kitchen() {
           <li>
           <Dishes
             text="Салат из сладких томатов"
-            image=""
+            image="https://p1.zoon.ru/d/f/576b06a057c652a3358b45c6_5773cf71992e6.jpg"
           />
           </li>
           <li>
           <Dishes
               text="Рубленая говядина с орехами в азиатском стиле"
-              image=""
+              image="https://lh3.googleusercontent.com/proxy/TErMJQmBCMVH-tpjxTzPLl_uv5H0fNlHK1yw0pXVVXnQb_IJaEcv9mQLqFfb-zqk3U3KRnNQZ1LowKkHuTrrb9DmrrAEYJqXCmg1GDAn_qz93cdQLVNDs4SBhbZclEAsQ1J7_udJZdYbz-35"
             />
           </li>
           <li>
           <Dishes
             text="Кальмар с грейпфрутом и мандарином"
-            image=""
+            image="https://aif-s3.aif.ru/images/016/411/005ae6ba4322ca24b7e5063a418dfcfe.jpg"
           />
           </li>
           <li>
           <Dishes
             text="Хрустящие баклажаны и сладкий чили"
-            image=""
+            image="https://eda.ru/img/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120213180745/180529180106/p_O.jpg"
           />
           </li>
           <li>
           <Dishes
             text="Креветки в рисовой бумаге с соусом Том Ям"
-            image=""
+            image="https://top-kitchen.ru/wp-content/uploads/1-635.gif"
           />
           </li>
         </ul>

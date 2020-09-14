@@ -22,10 +22,13 @@ a {
 }
 
 h1 {
+  position: relative;
+  top: -17px;
   padding: 10px;
-  font-size: 30px;
-  width: 100px;
+  font-size: 35px;
+  width: 140px;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
