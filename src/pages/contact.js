@@ -7,7 +7,7 @@ import styles from "./contact.module.css"
 export default function Contact() {
   return (
     <Layout>
-    <div>
+    <div className={styles.contact_css}>
     телефон
     </div>
     </Layout>

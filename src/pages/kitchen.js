@@ -11,6 +11,13 @@ const Dishes = props => (
 </div>
 )
 
+const Dishes2 = props => (
+<div className = {styles.salads2}>
+  <img src = {props.image2} className = {styles.kitchen_img_css2}/>
+  <div className={styles.text_kitchen2}>{props.text2}</div>
+</div>
+)
+
 export default function Kitchen() {
   return (
     <Layout header="Кухня">
@@ -56,6 +63,39 @@ export default function Kitchen() {
           </li>
         </ul>
 
+      </div>
+    </div>
+
+
+    <div className = {styles.dishes2}>
+      <div className = {styles.kitchen_title_css2}>Супы</div>
+      <div className = {styles.kitchen_list_css2}>
+      <ul>
+          <li>
+          <Dishes2
+            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
+            text2="Сингапурский суп с лапшой и морскими гадами"
+          />
+          </li>
+          <li>
+          <Dishes2
+            text2="Сингапурский суп с лапшой и морскими гадами"
+            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
+          />
+          </li>
+          <li>
+          <Dishes2
+            text2="Сингапурский суп с лапшой и морскими гадами"
+            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
+          />
+          </li>
+          <li>
+          <Dishes2
+            text2="Сингапурский суп с лапшой и морскими гадами"
+            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
+          />
+          </li>
+          </ul>
       </div>
     </div>
     </Layout>
