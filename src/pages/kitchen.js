@@ -13,8 +13,8 @@ const Dishes = props => (
 
 const Dishes2 = props => (
 <div className = {styles.salads2}>
-  <img src = {props.image2} className = {styles.kitchen_img_css2}/>
   <div className={styles.text_kitchen2}>{props.text2}</div>
+  <img src = {props.image2} className = {styles.kitchen_img_css2}/>
 </div>
 )
 
@@ -77,24 +77,7 @@ export default function Kitchen() {
             text2="Сингапурский суп с лапшой и морскими гадами"
           />
           </li>
-          <li>
-          <Dishes2
-            text2="Сингапурский суп с лапшой и морскими гадами"
-            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
-          />
-          </li>
-          <li>
-          <Dishes2
-            text2="Сингапурский суп с лапшой и морскими гадами"
-            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
-          />
-          </li>
-          <li>
-          <Dishes2
-            text2="Сингапурский суп с лапшой и морскими гадами"
-            image2="https://cs13.pikabu.ru/post_img/2020/01/29/5/og_og_1580277910285653883.jpg"
-          />
-          </li>
+
           </ul>
       </div>
     </div>
