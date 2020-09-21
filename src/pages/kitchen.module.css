@@ -15,7 +15,7 @@
 
 .dishes{
   width: 40%;
-  padding-bottom: 10%;
+  height: 520px;
 }
 
 .kitchen_list_css ul {
@@ -49,6 +49,8 @@
 
 .text_kitchen{
   float: left;
+  position: relative;
+	cursor: pointer;
 }
 
 .text_kitchen:hover ~ .kitchen_img_css {
@@ -59,12 +61,29 @@
   opacity: 1;
 }
 
+.text_kitchen:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: #E3FC3F;
+	content: "";
+	transition: width 0.4s ease-out;
+  bottom: -13px;
+}
+
+.text_kitchen:hover:after,
+.text_kitchen:focus:after {
+	width: 22vw;
+}
+
 .kitchen_img_css{
   opacity: 0;
   width: 40%;
   position: absolute;
   left: 650px;
-  top: 250px;
+  top: 16rem;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
@@ -96,6 +115,7 @@
 
 .dishes2{
   padding-left: 70%;
+  height: 520px;
 }
 
 .kitchen_list_css2 ul {
@@ -129,7 +149,9 @@
 }
 
 .text_kitchen2{
-  float: left;
+  float: right;
+  position: relative;
+	cursor: pointer;
 }
 
 .text_kitchen2:hover ~ .kitchen_img_css2 {
@@ -138,6 +160,23 @@
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
   opacity: 1;
+}
+
+.text_kitchen2:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: #E3FC3F;
+	content: "";
+	transition: width 0.4s ease-out;
+  bottom: -13px;
+}
+
+.text_kitchen2:hover:after,
+.text_kitchen2:focus:after {
+	width: 22vw;
 }
 
 .kitchen_img_css2{

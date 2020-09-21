@@ -1,4 +1,10 @@
 .contact_css{
   text-align: center;
   font-size: 40px;
+  padding-right: 100px;
+}
+
+.phone{
+  font-size: 30px;
+  padding-top: 15px;
 }

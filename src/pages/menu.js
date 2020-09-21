@@ -12,6 +12,7 @@ const Cocktail = props => (
   <div className = {styles.menu_title_css}> {props.title}</div>
   <img src = {props.image} className = {styles.menu_img_css}/>
   <div className = {styles.menu_text_css}> {props.description}</div>
+  <img src = {props.photocard} className = {styles.photocard}/>
   </div>
 </div>
 )
@@ -24,6 +25,7 @@ export default function Menu() {
       title="Пиво"
       image="https://images.unsplash.com/photo-1523567830207-96731740fa71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
       description ="Просто лучший напиток."
+      photocard="https://cdn150.picsart.com/upscale-271345872023211.png?type=webp&to=min&r=640"
     />
 
     <Cocktail
