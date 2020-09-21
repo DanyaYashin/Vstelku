@@ -15,7 +15,8 @@
 
 .dishes{
   width: 40%;
-  height: 520px;
+  height: 550px;
+  position: relative;
 }
 
 .kitchen_list_css ul {
@@ -80,10 +81,10 @@
 
 .kitchen_img_css{
   opacity: 0;
-  width: 40%;
+  width: 120%;
   position: absolute;
-  left: 650px;
-  top: 16rem;
+  left: 100%;
+  top: 100px;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
@@ -115,7 +116,8 @@
 
 .dishes2{
   padding-left: 70%;
-  height: 520px;
+  height: 550px;
+  position: relative;
 }
 
 .kitchen_list_css2 ul {
@@ -181,10 +183,10 @@
 
 .kitchen_img_css2{
   opacity: 0;
-  width: 40%;
+  width: 50%;
   position: absolute;
-  right: 650px;
-  top: 800px;
+  right: 40%;
+  top: 100px;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
