@@ -13,3 +13,48 @@ span{
 						8px 8px #ff1f8f,
 						20px 20px #000000;
 }
+
+.news{
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  width: 40%;
+  background-color: rgba(18, 14, 33, 1);
+  color: white;
+  padding: 25px;
+}
+
+.news_border{
+padding: 1rem;
+position: relative;
+background: linear-gradient(to right, red, purple);
+padding: 5px;
+}
+
+.border{
+  background-color: rgba(18, 14, 33, 1);
+  padding: 70px;
+}
+
+.home_img{
+  width: 45%;
+  float: left;
+  position: absolute;
+  top: 130%;
+  right: 50%;
+  margin-top: 5px;
+}
+
+.home_img1, .home_img2, .home_img3, .home_img4{
+  width: 300px;
+  height: 262px;
+  margin-top: -5px;
+}
+
+.cnvs{
+  width: 75%;
+  height: 1px;
+  position: absolute;
+  top: 105%;
+  border: 0.2px solid black;
+}

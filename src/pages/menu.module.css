@@ -29,3 +29,22 @@
   font-size: 18px;
   background-color: white;
 }
+
+.inst_heart{
+  color: red;
+  position: relative;
+  top: -175px;
+  left: 10px;
+}
+
+.inst_comment{
+  position: relative;
+  top: -194px;
+  left: 40px;
+}
+
+.inst_plane{
+  position: relative;
+  top: -213px;
+  left: 70px;
+}
